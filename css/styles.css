@@ -55,12 +55,9 @@ img {
   align-items: center;
 }
 
-.logo {
+.logo-link-header {
   display: inline-flex;
   align-items: center;
-}
-
-.logo-link-header {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -87,13 +84,14 @@ img {
 }
 
 .nav-item {
-  padding: 24px 0;
+  display: flex;
 }
 
 .nav-item .link {
   color: #2e2f42;
   font-weight: 500;
   letter-spacing: 0.32px;
+  padding: 24px 0;
 }
 
 .nav-item .link:hover,
