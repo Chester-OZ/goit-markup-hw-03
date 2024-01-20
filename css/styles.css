@@ -53,16 +53,14 @@ img {
 .header-nav {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 
 .logo {
   display: inline-flex;
   align-items: center;
-  margin-right: 76px;
 }
 
-.logo-link {
+.logo-link-header {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -70,6 +68,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .logo-span {
@@ -85,6 +84,10 @@ img {
 .link {
   font-size: 16px;
   line-height: 1.5;
+}
+
+.nav-item {
+  padding: 24px 0;
 }
 
 .nav-item .link {
@@ -298,7 +301,14 @@ img {
   padding: 100px 0;
 }
 
-.footer-wrap .logo-link {
+.logo-link-footer {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
   display: inline-block;
   margin-bottom: 16px;
 }
